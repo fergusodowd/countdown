@@ -1,6 +1,7 @@
 import nltk
 from nltk.corpus import words
-letters = input("Please choose 9 letters: \n")
+selection = input("Please choose 9 letters: \n")
+letters = selection.lower()
 def longestword(letters):
     longest_word = []
     n = 9
